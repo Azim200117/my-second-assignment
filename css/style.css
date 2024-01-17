@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Tilt Neon', sans-serif;
 }
 
-.logo{
+.logo {
   margin: 20px 20px;
   padding: 0 20px;
   display: flex;
   gap: 10px;
 }
 
-.logo img{
+.logo img {
   height: 34px;
   width: auto;
 }
 
-.logo-text{
+.logo-text {
   color: #131318;
   font-size: 23px;
   font-style: normal;
@@ -26,15 +26,15 @@
   line-height: normal;
 }
 
-.imp-1{
-  color: #FF5400;
+.imp-1 {
+  color: #ff5400;
   font-size: 23px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
 
-.about{
+.about {
   margin-top: 50px;
   margin-left: 20px;
   display: flex;
@@ -42,7 +42,7 @@
   align-items: center;
 }
 
-.about-text{
+.about-text {
   color: #131318;
   font-size: 40px;
   font-style: normal;
@@ -50,26 +50,26 @@
   line-height: normal;
 }
 
-.about-paragraph{
-  margin-top: 10px; 
-  color: rgba(19, 19, 24, 0.70);
+.about-paragraph {
+  margin-top: 10px;
+  color: rgba(19, 19, 24, 0.7);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
 }
 
-.ul-1{
+.ul-1 {
   margin-left: 55px;
 }
 
-.btn-1{
+.btn-1 {
   padding: 14px 35px;
   margin-top: 10px;
   border-radius: 8px;
   border: none;
-  background: #FF5400;
-  color: #FFF;
+  background: #ff5400;
+  color: #fff;
   text-align: center;
   font-size: 16px;
   font-style: normal;
@@ -77,15 +77,15 @@
   line-height: normal;
 }
 
-.about-img{
+.about-img {
   width: 50%;
 }
 
-.travel-container{
+.travel-container {
   margin-top: 100px;
 }
 
-h2{
+h2 {
   color: #131318;
   text-align: center;
   font-size: 23px;
@@ -94,53 +94,215 @@ h2{
   line-height: normal;
 }
 
-.travel-paragraph{
+.travel-paragraph {
   margin-top: 15px;
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+.Images {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.img-2 {
+  width: 573px;
+  height: 300px;
+}
+
+.img-3 {
+  width: 398px;
+  height: 286px;
+}
+
+.choose-us-container{
+  margin-top: 50px;
+}
+
+.choose-us-text{
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.choose-us-paragraph{
   color: rgba(19, 19, 24, 0.70);
   text-align: center;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 162.5% */
+}
+
+.Handpicked-Hotels{
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 573px;
+  height: 284px;
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.Handpicked-Hotels-Container{
+  padding: 30px 30px;
+}
+
+.Handpicked-Hotels-Text{
+  margin-top: 20px;
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
   }
 
-  .Images{
-    margin-top: 24px;
-    text-align: center;
+  .Handpicked-Hotels-Paragraph{
+    margin-top: 20px;
+   color: #5A5A5D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
   }
 
-  .img-2{
+  .worlds-class-services{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+  }
+
+  .services-container{
+    display: flex;
+    gap: 20px;
+  }
+
+  .price-tag{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
     width: 573px;
-    height: 300px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    margin-left: 350px;
   }
 
-  .img-3{
-    width: 398px;
-    height: 286px;
+  .price-tag-container{
+    padding: 30px 30px;
+  }
+  
+  .price-tag-text{
+    margin-top: 20px;
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
 
-@media screen and (max-width:600px) {
-  .about{
+  .price-tag-paragraph{
+    margin-top: 20px;
+    color: #5A5A5D;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+  }
+
+.newsletter{
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-container{
+  margin: 50px 50px;
+  width: 416px;
+  height: 330px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+  padding: 50px 50px ;
+}
+
+.newsletter-paragraph{
+  margin-top: 20px;
+  color: #5A5A5D;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+input{
+  margin-top: 20px;
+  padding: 20px 128px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.btn-2{
+  margin-top: 20px;
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: #FF5400;
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border: none;
+}
+
+footer{
+  width: 1440px;
+  height: 502px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+
+.align{
+  justify-content: center;
+  padding-top: 110px;
+}
+
+.footer-img{
+  margin-top: 50px;
+  margin-left: 650px;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
     flex-direction: column;
     margin-top: 50px;
     margin-left: 13px;
   }
 
-  .about-container{
+  .about-container {
     margin-left: 12px;
   }
 
-  .about-img{
+  .about-img {
     margin-right: 200px;
   }
 
-  .about-img img{
+  .about-img img {
     width: 400px;
     height: 426px;
     border-radius: 10px;
   }
 
-  .about-text{
+  .about-text {
     color: #131318;
     font-size: 25px;
     font-style: normal;
@@ -148,61 +310,218 @@ h2{
     line-height: normal;
   }
 
-  .about-paragraph{
-    margin-top: 10px; 
-    color: rgba(19, 19, 24, 0.70);
+  .about-paragraph {
+    margin-top: 10px;
+    color: rgba(19, 19, 24, 0.7);
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px; /* 162.5% */
   }
 
-  .ul-1{
+  .ul-1 {
     margin-left: 16px;
   }
 
-  .Images{
+  .Images {
     flex-direction: column;
   }
+
+  .img-1 {
+    width: 335px;
+    height: 176px;
+  }
+
+  .img-2 {
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+  }
+
+  .img-3 {
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+  }
+
+  .img-4 {
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+  }
+
+  .img-5 {
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+  }
+
+  .img-6 {
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+  }
+
+  .img-7 {
+    width: 335px;
+    height: 176px;
+    margin-top: 20px;
+  }
+
+  .services-container{
+    flex-direction: column;
+    width: 335px;
+    height: 289px;  
+  }
+
+  .price-tag{
+    width: 335px;
+    height: 289px;
+  }
+
+  .price-tag-text{
+    margin-top: 20px;
+    color: #131318;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .price-tag-paragraph{
+    margin-top: 20px;
+    color: #5A5A5D;
+   font-size: 14px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 26px; /* 162.5% */
+  }
+
+  .choose-us-text{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
   
-  .img-1{
-    width: 335px;
-    height: 176px;
+  .choose-us-paragraph{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
   }
   
-  .img-2{
-    width: 335px;
-    height: 176px;
-    margin-top: 20px;
+  .Handpicked-Hotels{
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
   }
+  
+  .Handpicked-Hotels-Container{
+    padding: 30px 30px;
+  }
+  
+  .Handpicked-Hotels-Text{
+    margin-top: 20px;
+    color: #131318;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+  
+    .Handpicked-Hotels-Paragraph{
+      margin-top: 20px;
+     color: #5A5A5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    }
 
-  .img-3{
-    width: 335px;
-    height: 176px;
-    margin-top: 20px;
-  }
+    .choose-us-text{
+      color: #131318;
+      text-align: center;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+    }
+    
+    .choose-us-paragraph{
+      color: rgba(19, 19, 24, 0.70);
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px; /* 162.5% */
+    }
 
-  .img-4{
-    width: 335px;
-    height: 176px;
-    margin-top: 20px;
-  }
+    .price-tag{
+      flex-direction: column;
+      width: 335px;
+      height: 289px;
+    }
 
-  .img-5{
-    width: 335px;
-    height: 176px;
-    margin-top: 20px;
-  }
+    input{
+      margin-top: 20px;
+      padding: 20px 50px;
+      border-radius: 10px;
+      border: none;
+      background: rgba(19, 19, 24, 0.05);
+    }
+    
+    .btn-2{
+      margin-top: 20px;
+      width: 200px;
+      height: 52px;
+      border-radius: 8px;
+      background: #FF5400;
+      color: #FFF;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+      border: none;
+      margin-left: 40px;
+    }
 
-  .img-6{
-    width: 335px;
-    height: 176px;
-    margin-top: 20px;
-  }
+    .newsletter{
+      flex-direction: column;
+      padding:50px 50px;
+      margin-left: 250px;
+    }
 
-  .img-7{
-    width: 335px;
-    height: 176px;
-    margin-top: 20px;
-  }
+    .newsletter-img img{
+      width: 335px;
+      height: 300px;
+    }
+
+    .footer-container{
+      text-align: center;
+      width: 1000px;
+      height: 309px;
+      flex-shrink: 0;
+    }
+
+    .align{
+      margin-left: -165px;
+    }
+
+    .center{
+      margin-left: -178px;
+    }
+    
+    .footer-img{
+      margin-left: -120px;
+    }
 }
